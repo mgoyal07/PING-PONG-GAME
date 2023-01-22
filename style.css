@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+.rod{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5rem;
+    width: 15vw;
+    height: 2vh;
+    padding: 2px;
+    color: white;
+    /* font-weight: 400; */
+    position: absolute;
+}
+#rod1{
+    background-color: blue;
+    top: 0;
+}
+#rod2{
+    background-color: purple;
+    bottom: 0;
+}
+#ball{
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.score{
+    position: relative;
+    font-size: 3.5rem;
+    color: aliceblue;
+}
